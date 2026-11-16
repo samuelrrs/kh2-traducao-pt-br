@@ -29,18 +29,18 @@ Ficam de fora, de propósito:
 
 - Dump `PPSA35901-app` com `Image\dt\kh2_first.hed/.pkg`, `kh2_fifth` e `kh2_sixth`.
 - ~530 MB livres no disco.
-- Para o `.exe` da release, nada mais. Para rodar o `.py`, Python 3 (https://www.python.org/downloads/,
-  com **Add python.exe to PATH** marcado).
 
 ## Como instalar
 
-Mantenha juntos: `KH2_PS5_PTBR.patch`, `aplicar_traducao.exe` (ou `aplicar_traducao.py`) e `aplicar_traducao.bat`.
+Baixe o zip da release e extraia. Mantenha juntos `aplicar_traducao.exe` e `KH2_PS5_PTBR.patch`.
 
-Dois cliques em `aplicar_traducao.exe` e escolha a pasta do jogo. Também dá para arrastar a pasta do jogo
-em cima do `aplicar_traducao.bat`:
+Dois cliques em `aplicar_traducao.exe` e escolha a pasta do jogo, ou arraste a pasta do jogo
+em cima do `.exe`.
+
+O `.exe` é o `aplicar_traducao.py` deste repositório empacotado com PyInstaller:
 
 ```bat
-aplicar_traducao.bat "D:\caminho\PPSA35901-app"
+pyinstaller --onefile --console --name aplicar_traducao aplicar_traducao.py
 ```
 
 O instalador confere os arquivos antes de alterar qualquer coisa. Se o dump for de outra versão
