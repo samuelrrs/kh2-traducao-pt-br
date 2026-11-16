@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.tmp
+*.exe
+build/
+dist/
+*.spec
+work/
+.venv/
+_release_notes.md
