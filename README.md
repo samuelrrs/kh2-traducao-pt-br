@@ -89,4 +89,4 @@ python ferramentas\build_patch.py KH2_PS5_PTBR.patch
 
 ## Créditos
 
-Tradução: Phantasie Translate (KH2 PC). Port para PS5: samuelrrs.
+Tradução: Phantasie Translate (KH2 PC). Port para PS5: samzito.
