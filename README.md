@@ -1,6 +1,6 @@
 # Tradução PT-BR — Kingdom Hearts II Final Mix (KH HD 1.5+2.5 ReMIX, PS5, PPSA35901)
 
-**Não inclui o jogo.** Só o `KH2_PS5_PTBR.patch` (diferença sobre os pacotes originais) e o instalador.
+**Não inclui o jogo.**
 
 A tradução é a da Phantasie Translate para o KH2 de PC (patch `Traducao_Kh2PC`, formato KH2PC Patch Manager).
 Este pacote só porta essa tradução para o dump de PS5. Não é o patch de PC.
